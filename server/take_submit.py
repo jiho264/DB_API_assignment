@@ -27,7 +27,8 @@ from flask import Flask, request
 app = Flask(__name__)
 
 # Connect to the database
-conn = sqlite3.connect("StockManageAPP.sqlite")
+conn = sqlite3.connect("db/StockManageAPP.sqlite")
+
 c = conn.cursor()
 
 # # Create table if not exists
