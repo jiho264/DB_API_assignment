@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 웹사이트</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>안녕하세요, 웹사이트!</h1>
+    <p>첫 웹페이지를 만들어 봅시다.</p>
+    <form action="/submit" method="post">
+        <label for="userid">User ID:</label><br>
+        <input type="text" id="userid" name="userid"><br>
+        <label for="pw">Password:</label><br>
+        <input type="password" id="pw" name="pw"><br>
+        <label for="stockcode">Stock Code:</label><br>
+        <input type="text" id="stockcode" name="stockcode"><br>
+        <label for="count">Count:</label><br>
+        <input type="number" id="count" name="count"><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
