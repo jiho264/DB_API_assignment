@@ -11,3 +11,7 @@
 <pre>
 ../DB_API_assignment/myAPI_key.py
 </pre>
+
+## Contributor
+- 201901744 김태수
+- 201910763 이지호
